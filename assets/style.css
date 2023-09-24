@@ -4,13 +4,16 @@
     --tertiary: gray;
 }
 
-/* Body Section */
+/* BODY SECTION */
 body {
+    display: flex;
+    flex-direction: column;
     /* font-family: ; */
 }
-/* Header Section */
+/* HEADER SECTION */
 header {
 background-color: var(--tertiary);
+background-clip: content-box;
 }
 
 header h1 {
@@ -20,9 +23,38 @@ header h1 {
 header ul {
     text-align: right;
 }
-/* Main Section */
+/* MAIN SECTION */
+/* .banner section */
+.banner h2 {
+    display: flex;
+    justify-content: right;
+    background-color: var(--tertiary);
+    border: 2px;
+}
+/* .container section */
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    justify-content: center;
+    width: 100%;
+}
 
-/* Footer Section */
+/* .segment section */
+.segment {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .title section */
+.title {
+    background-color: var(--tertiary);
+    background-clip: content-box;
+}
+
+
+
+/* FOOTER SECTION */
 footer {
     background-color: var(--tertiary);
     /* position: */

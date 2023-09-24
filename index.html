@@ -3,7 +3,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tyler Fruik Dev Portfolio</title>
-        <link rel="stylesheet" href="./assets/reset.css">
+        <!-- <link rel="stylesheet" href="./assets/reset.css"> -->
         <link rel="stylesheet" href="./assets/style.css">
         <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
     </head>
@@ -20,25 +20,50 @@
         </ul>
         </header>
         <main>
-            <div class="top-image">
+            <div class="banner">
                 <img src="#" alt="Top image">
                 <h2>Cool subtitle here!</h2>
             </div>
-            <div class="about-me">
-                <h3>About Me</h3>
-
-            </div>
-            <div class="work">
-                <h3>Work</h3>
-
-            </div>
-            <div class="Resume">
-                <h3>Resume</h3>
-
-            </div>
-            <div class="Contact Me">
-                <h3>Contact Me</h3>
-
+            <div class="container">
+                <div class="segment" id="about-me">
+                    <div class="title">
+                        <h3>About Me</h3>
+                    </div>
+                    <p>Dreams bigger than a one-man crew can manage, but I'll see what I can get done. Chill talks, good games, great community, and decent channel points. Find all those secret words! Dreams bigger than a one-man crew can manage, but I'll see what I can get done. Chill talks, good games, great community, and decent channel points. Find all those secret words! Dreams bigger than a one-man crew can manage, but I'll see what I can get done. Chill talks, good games, great community, and decent channel points. Find all those secret words!</p>
+                </div>
+                <div class="segment" id="Work">
+                    <div class="title">
+                        <h3>Work</h3>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://tylerfruik.github.io/Challenge-Week1/">
+                            <img src="./assets/images/Website.png" alt="Visual example of a website created by Tyler Fruik">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/Coming Soon.png" alt="Coming soon!">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/Coming Soon.png" alt="Coming soon!">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/Coming Soon.png" alt="Coming soon!">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/Coming Soon.png" alt="Coming soon!">
+                        </a>
+                    </div>
+                </div>
+                <div class="segment" id="Resume">
+                    <div class="title">
+                        <h3>Resume</h3>
+                    </div>
+                </div>
+                <div class="segment" id="Contact Me">
+                    <div class="title">
+                        <h3>Contact Me</h3>
+                    </div>
+                    <!-- Logos to links and all that jazz -->
+                </div>
             </div>
         </main>
         <footer>
@@ -46,3 +71,12 @@
         </footer>
     </body>
 </html>
+
+
+<!-- 
+Check if classes are needed for the <h3>s in  <div class="container"
+    It may be possible to put all of the CSS on simply the element rather than the class.
+    The current thought is that a class is needed to make things flexboxes but I
+    think that is unlikely.
+Animate the website gif.
+> -->
