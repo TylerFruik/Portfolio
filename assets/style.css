@@ -2,7 +2,7 @@
     --primary: rgb(132, 22, 196);
     --secondary: #333940;
     --tertiary: rgb(214, 196, 93);
-    --quaternary: white;
+    --quaternary: azure;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--secondary);
-    /* font-family: ; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: azure;
 }
 
@@ -92,7 +92,7 @@ header ul li {
 /* .title section */
 .title {
     display: block;
-    width: 20%;
+    width: 10%;
     background-color: var(--tertiary);
     background-clip: content-box;
     text-align: right;
@@ -115,19 +115,17 @@ header ul li {
     margin: 5px;
 }
 
-/* .featured-project {
-
+#contact-me-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#contact-me nav {
-
-} */
-
-#contact-me ul {
+#contact-me-content ul {
     list-style-type: none;
 }
 
-#contact-me ul li {
+#contact-me-content ul li {
     display: inline-block;
     margin-left: 25px;
 }
