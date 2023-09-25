@@ -1,35 +1,85 @@
 :root {
-    --primary: white;
-    --secondary: black;
-    --tertiary: gray;
+    --primary: rgb(132, 22, 196);
+    --secondary: #333940;
+    --tertiary: rgb(224, 202, 72);
+    --quaternary: white;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /* BODY SECTION */
 body {
     display: flex;
     flex-direction: column;
+    background-color: var(--secondary);
     /* font-family: ; */
 }
+
+a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
 /* HEADER SECTION */
 header {
-background-color: var(--tertiary);
-background-clip: content-box;
+    background-color: var(--tertiary);
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
 }
 
 header h1 {
-    text-align: left;
+    display: inline-block;
 }
 
 header ul {
-    text-align: right;
+    list-style-type: none;
 }
+
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 /* MAIN SECTION */
 /* .banner section */
+/* .banner section */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 161px;
+    background-color: var(--primary);
+}
+
+/* .banner-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.profile-picture {
+    position: relative;
+    border: 2px solid var(--quaternary);
+    margin: 3px;
+}
+
 .banner h2 {
-    display: flex;
-    justify-content: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     background-color: var(--tertiary);
-    border: 2px;
+    padding: 5px;
+    border: 2px solid var(--secondary);
+    margin: 20px 40px;
 }
 /* .container section */
 .container {
@@ -48,11 +98,30 @@ header ul {
 
 /* .title section */
 .title {
+    display: flex;
     background-color: var(--tertiary);
     background-clip: content-box;
+    width: 200px;
 }
 
+/* .project-links section */
+.project-links {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
 
+#contact-me nav {
+
+}
+
+#contact-me ul {
+    list-style-type: none;
+}
+
+#contact-me li {
+    display: inline-block;
+    margin-left: 25px;
+}
 
 /* FOOTER SECTION */
 footer {
@@ -62,6 +131,6 @@ footer {
 
 footer p {
     color: var(--tertiary);
-    filter: brightness(0.7);
+    filter: brightness(0.6);
     text-align: center;
 }
