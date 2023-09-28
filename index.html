@@ -13,16 +13,16 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#about-me">About Me</a>
+                    <a href="#about-me-content">About Me</a>
                 </li>
                 <li>
-                    <a href="#completed-projects">Completed Projects</a>
+                    <a href="#completed-projects-content">Completed Projects</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="#contact-me-content">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#contact-me">Contact Me</a>
+                    <a href="#resume"><span>Resume</span></a>
                 </li>
             </ul>
         </nav>
@@ -39,7 +39,7 @@
                     <h3>Me</h3>
                 </div>
                 <div class="content" id="about-me-content">
-                    <p>Dreams bigger than a one-man crew can manage, but I'll see what I can get done. Chill talks, good games, great community, and decent channel points. Find all those secret words! Dreams bigger than a one-man crew can manage, but I'll see what I can get done. Chill talks, good games, great community, and decent channel points. Find all those secret words! Dreams bigger than a one-man crew can manage, but I'll see what I can get done. Chill talks, good games, great community, and decent channel points. Find all those secret words!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et libero et sapien congue fringilla. Vivamus ullamcorper dui quis sem tincidunt, sed venenatis tortor blandit. Nulla facilisi. Vestibulum non elit vel ante posuere laoreet. Praesent bibendum bibendum dolor, ac pharetra justo sollicitudin sed. Duis aliquam, ipsum id volutpat euismod, dui elit vehicula lectus, quis lacinia arcu augue non ex. Quisque feugiat arcu non sapien efficitur, vel efficitur ex feugiat. Curabitur convallis metus vel consectetur cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam non velit non tellus dapibus iaculis ut a felis. Nulla facilisi. Integer eu libero at turpis feugiat congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas a ante eget dolor congue malesuada. Nunc at posuere tellus, sed elementum quam. Nulla facilisi. Integer eu lacus sit amet metus congue eleifend sed vel orci. Sed id felis ac lectus convallis scelerisque. Aliquam vel ex ac erat volutpat interdum sed nec odio. Nullam sollicitudin varius diam nec congue. Suspendisse potenti. Sed ac lorem sed tortor eleifend vehicula. Etiam id urna non erat euismod consectetur. Sed volutpat nisi eget massa malesuada, vel consectetur arcu mattis. Duis ut consectetur neque, at dignissim turpis. Vivamus vel urna et velit vehicula viverra nec at est. Sed pellentesque quam ut dolor laoreet, ac cursus arcu cursus.</p>
                 </div>
             </div>
             <div class="segment">
@@ -48,24 +48,37 @@
                     <h3>Projects</h3>
                 </div>
                 <div class= "content" id="completed-projects-content">
-                    <div class="project-links" id="large">
-                        <a href="https://tylerfruik.github.io/Challenge-Week1/">
-                            <img class="project-button" src="./assets/images/Website.png" alt="Visual example of a website created by Tyler Fruik">
+                    <div class="project-links" id="featured">
+                        <a href="#">
+                            <img src="./assets/images/Website.png" alt="Visual example of a website created by Tyler Fruik">
                         </a>
+                        <!-- <h4>Refactored Website</h4> -->
                     </div>
                     <div class="project-links" id="smaller">
-                        <a href="#">
-                            <img class="project-button" src="./assets/images/Coming Soon.png" alt="Coming soon!">
-                        </a>
-                        <a href="#">
-                            <img class="project-button" src="./assets/images/Coming Soon.png" alt="Coming soon!">
-                        </a>
-                        <a href="#">
-                            <img class="project-button" src="./assets/images/Coming Soon.png" alt="Coming soon!">
-                        </a>
-                        <a href="#">
-                            <img class="project-button" src="./assets/images/Coming Soon.png" alt="Coming soon!">
-                        </a>
+                        <div id="small-1">
+                            <a href="#">
+                                <img src="./assets/images/Coming Soon.png" alt="Coming soon!">
+                            </a>
+                            <!-- <h4>Placeholder one</h4> -->
+                        </div>
+                        <div id="small-2">
+                            <a href="#">
+                                <img src="./assets/images/Coming Soon.png" alt="Coming soon!">
+                            </a>
+                            <!-- <h4>Placeholder two</h4> -->
+                        </div>
+                        <div id="small-3">
+                            <a href="#">
+                                <img src="./assets/images/Coming Soon.png" alt="Coming soon!">
+                            </a>
+                            <!-- <h4>Placeholder three</h4> -->
+                        </div>
+                        <div id="small-4">
+                            <a href="#">
+                                <img src="./assets/images/Coming Soon.png" alt="Coming soon!">
+                            </a>
+                            <!-- <h4>Placeholder four</h4> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,13 +92,13 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">(555) 555-5555</a>
+                                <a href="#"><span>(555) 555-5555</span></a>
                             </li>
                             <li>
                                 <a href="https://github.com/TylerFruik">GitHub</a>
                             </li>
                             <li>
-                                <a href="#">Email</a>
+                                <a href="#"><span>Email</span></a>
                             </li>
                             <li>
                                 <a href="https://discord.gg/kEWsKpq9">Discord</a>
@@ -115,6 +128,7 @@
 • Resume link at the top
 • Possibly add logos to the contact links
 • Completed Projects links are the entire flexbox rather than just the image.
+    Mostly resolved!! The margins are clickable on the smaller images on the bottom.
 • Add the line between the title and content in each segment
 • Add label cards to each project link
 • Reduce the box behind each title to be only behind text
