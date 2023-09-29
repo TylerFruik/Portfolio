@@ -1,9 +1,9 @@
 :root {
-    --primary: rgb(132, 22, 196);
-    --secondary: #333940;
-    --tertiary: rgb(214, 196, 93);
-    --quaternary: azure;
-    --temp: darkred;
+    --primary: #EA6138; /*shirt sun orange */
+    --secondary: #261E20; /*shirt text*/
+    --tertiary: #EFBD51; /*shirt sun yellow */
+    --quaternary: #FFF7EF; /*shirt background */
+    --temp: black;
 }
 
 * {
@@ -28,15 +28,6 @@ a {
 
 h3 {
     font-size: 200%;
-}
-
-h4 {
-    position: absolute;
-    bottom: 15%;
-    background-color: var(--tertiary);
-    font-size: 200%;
-    text-align: center;
-    padding: 1%;
 }
 
 /* HEADER */
@@ -64,7 +55,6 @@ header nav {
     right: 10px;
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-size: 30px;
 }
 
@@ -82,14 +72,18 @@ header ul li {
 .banner {
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: var(--temp);
+    background-image: url(./images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .profile-picture {
     position: relative;
-    width: 280px;
-    height: 280px;
+    width: 380px;
+    height: 380px;
     border: 2px solid var(--quaternary);
     margin: 10px;
 }
@@ -100,16 +94,18 @@ header ul li {
     right: 0;
     background-color: var(--tertiary);
     padding: 5px;
-    border: 2px solid var(--secondary);
     margin: 20px 40px;
+    font-size: 48px;
 }
 
 /* .container */
 .container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
     padding: 10px;
+    overflow: hidden;
 }
 
 .container p {
@@ -169,6 +165,16 @@ header ul li {
     padding: 4px 4px 0px 4px;
 }
 
+.project-links h4 {
+    position: absolute;
+    bottom: 15%;
+    background-color: var(--tertiary);
+    font-size: 200%;
+    text-align: center;
+    transition: background-color 0.8s ease;
+    padding: 1%;
+}
+
 #featured img {
     width: 1250px;
 }
@@ -193,9 +199,13 @@ header ul li {
 }
 
 /* For now, the blur and grayscale filters are fine. Ideally, the border and the title card would change colors as well but it's unknown how to achieve that at this time. */
-/* .project-links a:hover {
+.project-links a:hover {
     border: 5px solid var(--primary);
-} */
+}
+
+.project-links h4:hover {
+    background-color: var(--primary);
+}
 
 /* Contact Me */
 #contact-me-content {
@@ -225,8 +235,8 @@ footer p {
 
 
 
-/* ========TO DO======= */
-span {
+/* ========These links are not currently deployed.======= */
+/* span {
     color: blue;
     background-color: black;
-}
+} */
