@@ -12,7 +12,7 @@ This repository contains the HTML and CSS file as well as all necessary images i
 All code written manually by Tyler Fruik
 
 ### The following is an image of the final webpage:
-![Image URL](https://github.com/TylerFruik/Portfolio/blob/main/Webpage%20View%20Sept28.png)
+![Image URL](https://github.com/TylerFruik/Portfolio/blob/main/assets/images/Webpage%20View%20Sept28.png)
 
 ## Assignment Information
 
